@@ -11,6 +11,10 @@ app.get('/', (req: Request, res: Response) => {
 	res.send('Hello, world');
 });
 
+app.get('/hello', (req: Request, res: Response) => {
+	res.send('Route GET: Hello');
+});
+
 app.listen(port, () => {
-	console.log('Express listening on port ' + port);
+	console.log('Server listening on port ' + port);
 });
