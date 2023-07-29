@@ -1,5 +1,5 @@
-import { HelloController } from "@/controller/HelloController";
-import { LogInfo } from "@/utils/logger";
+import { HelloController } from "../controller/HelloController";
+import { LogInfo } from "../utils/logger";
 import { Router, Request, Response } from "express";
 
 // Router from express
