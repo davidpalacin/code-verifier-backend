@@ -13,7 +13,7 @@ const server = express();
 const rootRouter = express.Router();
 
 rootRouter.get("/", (req, res) => {
-    LogInfo("GET /api")
+    LogInfo("GET http://localhost:8000/api/")
 	res.send("Hello World");
 });
 

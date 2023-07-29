@@ -4,6 +4,7 @@ import { Router, Request, Response } from "express";
 
 // Router from express
 export const helloRouter = Router();
+
 helloRouter.route("/").get(async (req: Request, res: Response) => {
 	const name = req?.query?.name;
 	LogInfo(`Query param: ${name}`);
